@@ -1,0 +1,19 @@
+variable "region" {
+  type        = string
+  description = "The AWS region."
+}
+
+variable "bucket_prefix" {
+  type        = string
+  description = "S3 bucket name prefix."
+}
+
+variable "stage" {
+  type        = string
+  description = "The current stage of the environment."
+}
+
+variable "stage_lower" {
+  type        = string
+  description = "The current stage of the environment in lower case."
+}
